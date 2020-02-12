@@ -7,10 +7,11 @@ async function fetchAllProducts() {
 		);
 		const data = await response.data.products;
 		const titles = data.map(product => product.title);
-		console.log(titles);
+		//console.log(titles)
+		return titles;
 	} catch (error) {
 		console.log(error);
 	}
 }
 
-fetchAllProducts();
+console.log(fetchAllProducts());
