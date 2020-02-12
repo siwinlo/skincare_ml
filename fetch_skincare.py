@@ -1,5 +1,6 @@
 import requests
 import json
+from bs4 import BeautifulSoup
 
 
 def fetch_products():
@@ -32,10 +33,24 @@ def parse_descriptions():
         data = json.load(read_file)
         descriptions = []
         for product in data["products"]:
-            descriptions.append(product["body_html"])
-        return titles
+            body_html = product["body_html"][
+                :300
+            ]  # trimmed to make this more manageable
+            soup = BeautifulSoup(body_html)
+            descriptions.append(soup.get_text())
+            # we still get some tags of the <!-- --> variety...
+
+        return descriptions
 
 
-fetch_products()
-write_titles()
+def write_descriptions():
+    t = open("all_descriptions.txt", "w")
+    data = parse_descriptions()
+    data_str = "\n  "
+    data_str = data_str.join(data)
+    t.write(data_str)
+    t.close()
+
+
+write_descriptions()
 
