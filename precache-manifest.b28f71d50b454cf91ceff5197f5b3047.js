@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "969aec55effabd6c1b3c019cc6c962bd",
+    "revision": "0540f70344c0c77ef4ca6d1ab4abe173",
     "url": "/skincare_ml/skincare_ml_ator/public/index.html/index.html"
   },
   {
