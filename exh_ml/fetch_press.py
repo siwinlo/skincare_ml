@@ -15,7 +15,7 @@ def parse_listings():
         press_releases = []
         for exh in data:
             if type(exh["description"]) == str:
-                press_releases.append(exh["description"][:500])
+                press_releases.append(exh["description"][:700])
         return press_releases
 
 
