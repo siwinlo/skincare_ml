@@ -1,9 +1,9 @@
 import React from 'react';
 // import fs from 'fs';
 // import toJSON from 'plain-text-data-to-json';
-import generated_products from '../generated_products.txt';
+import generated_press from '../generated_press.txt';
 
-class AllTitles extends React.Component {
+class AllExhs extends React.Component {
 	constructor() {
 		super();
 		this.state = {
@@ -12,7 +12,7 @@ class AllTitles extends React.Component {
 	}
 
 	getDescriptions = () => {
-		fetch(generated_products)
+		fetch(generated_press)
 			.then(r => r.text())
 			.then(t =>
 				this.setState({
@@ -38,4 +38,4 @@ class AllTitles extends React.Component {
 	}
 }
 
-export default AllTitles;
+export default AllExhs;
