@@ -57,10 +57,31 @@ h3 {
 	margin: 5em;
 }
 
+.nav {
+	background-color: #dddddd;
+	display: flex;
+	margin: 2em 0 0 0;
+	align-items: space-around;
+}
+
+.nav-link {
+	flex: auto;
+	font-size: larger;
+}
+
+.nav-link:hover {
+	color: #ff0099;
+}
+
 p {
 	font-size: 1em;
 	color: #38ff12;
 	font-family: 'Courier New', Courier, monospace;
+}
+
+.show-more {
+	color: #dddddd;
+	size: 1.2em;
 }
 
 .synth {

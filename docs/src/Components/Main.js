@@ -1,6 +1,5 @@
 import React from 'react';
-// import AllTitles from './AllTitles';
-// import AllDescriptions from './AllDescriptions';
+import About from './About';
 import AllExhs from './AllExhs';
 import SynthProducts from './SynthProducts';
 
@@ -12,6 +11,9 @@ class Main extends React.Component {
 			products: false,
 			exhs: false,
 		};
+		this.toggleAbout = this.toggleAbout.bind(this);
+		this.toggleProducts = this.toggleProducts.bind(this);
+		this.toggleExhs = this.toggleExhs.bind(this);
 	}
 
 	toggleAbout(event) {
@@ -31,15 +33,22 @@ class Main extends React.Component {
 	}
 	render() {
 		return (
-			<div className="main">
-				<div onClick={this.toggleAbout}>
-					{this.state.about ? <About /> : <h1>About</h1>}
+			<div>
+				<div className="nav">
+					<div className="nav-link" onClick={this.toggleAbout}>
+						About
+					</div>
+					<div className="nav-link" onClick={this.toggleProducts}>
+						Skincare Products
+					</div>
+					<div className="nav-link" onClick={this.toggleExhs}>
+						Exhibition Press Releases
+					</div>
 				</div>
-				<div onClick={this.toggleProducts}>
-					{this.state.about ? <SynthProducts /> : <h1>Skincare Products</h1>}
-				</div>
-				<div onClick={this.toggleExhs}>
-					{this.state.about ? <AllExhs /> : <h1>Exhibition Press Releases</h1>}
+				<div className="main">
+					{this.state.about ? <About /> : null}
+					{this.state.products ? <SynthProducts /> : null}
+					{this.state.exhs ? <AllExhs /> : null}
 				</div>
 			</div>
 		);

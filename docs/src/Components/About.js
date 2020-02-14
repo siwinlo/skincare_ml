@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
 	return (
-		<div className="about body">
+		<div className="all-container">
 			<p>A text generation project</p>
 		</div>
 	);
