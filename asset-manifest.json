@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/skincare_ml/skincare_ml_ator/public/index.html/static/css/main.d1b05096.chunk.css",
-    "main.js": "/skincare_ml/skincare_ml_ator/public/index.html/static/js/main.013e55a1.chunk.js",
-    "main.js.map": "/skincare_ml/skincare_ml_ator/public/index.html/static/js/main.013e55a1.chunk.js.map",
+    "main.css": "/skincare_ml/skincare_ml_ator/public/index.html/static/css/main.67bb0b97.chunk.css",
+    "main.js": "/skincare_ml/skincare_ml_ator/public/index.html/static/js/main.7bc66691.chunk.js",
+    "main.js.map": "/skincare_ml/skincare_ml_ator/public/index.html/static/js/main.7bc66691.chunk.js.map",
     "runtime-main.js": "/skincare_ml/skincare_ml_ator/public/index.html/static/js/runtime-main.6fb15f15.js",
     "runtime-main.js.map": "/skincare_ml/skincare_ml_ator/public/index.html/static/js/runtime-main.6fb15f15.js.map",
     "static/js/2.9d77b04d.chunk.js": "/skincare_ml/skincare_ml_ator/public/index.html/static/js/2.9d77b04d.chunk.js",
     "static/js/2.9d77b04d.chunk.js.map": "/skincare_ml/skincare_ml_ator/public/index.html/static/js/2.9d77b04d.chunk.js.map",
     "index.html": "/skincare_ml/skincare_ml_ator/public/index.html/index.html",
-    "precache-manifest.b28f71d50b454cf91ceff5197f5b3047.js": "/skincare_ml/skincare_ml_ator/public/index.html/precache-manifest.b28f71d50b454cf91ceff5197f5b3047.js",
+    "precache-manifest.6348b22e5d9c838161cb53537ac8180f.js": "/skincare_ml/skincare_ml_ator/public/index.html/precache-manifest.6348b22e5d9c838161cb53537ac8180f.js",
     "service-worker.js": "/skincare_ml/skincare_ml_ator/public/index.html/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/skincare_ml/skincare_ml_ator/public/index.html/static/css/main.d1b05096.chunk.css.map",
+    "static/css/main.67bb0b97.chunk.css.map": "/skincare_ml/skincare_ml_ator/public/index.html/static/css/main.67bb0b97.chunk.css.map",
     "static/js/2.9d77b04d.chunk.js.LICENSE.txt": "/skincare_ml/skincare_ml_ator/public/index.html/static/js/2.9d77b04d.chunk.js.LICENSE.txt",
     "static/media/generated_descriptions.txt": "/skincare_ml/skincare_ml_ator/public/index.html/static/media/generated_descriptions.7cb40193.txt",
     "static/media/generated_press.txt": "/skincare_ml/skincare_ml_ator/public/index.html/static/media/generated_press.28059b40.txt",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.6fb15f15.js",
     "static/js/2.9d77b04d.chunk.js",
-    "static/css/main.d1b05096.chunk.css",
-    "static/js/main.013e55a1.chunk.js"
+    "static/css/main.67bb0b97.chunk.css",
+    "static/js/main.7bc66691.chunk.js"
   ]
 }
