@@ -2,12 +2,10 @@ from textgenrnn import textgenrnn
 
 # Soko glam skincare
 g = textgenrnn("textgenrnn_weights.hdf5")
-# g.generate_to_file("generated_products.txt", n=10, temperature=1.0)
-# g.generate_to_file("generated_descriptions.txt", n=100, temperature=0.5, prefix="This")
-g.generate_to_file(
-    "../skincare_ml_ator/src/generated_descriptions.txt",
-    n=50,
-    temperature=0.5,
-    prefix="This",
-)
+
+batch = g.generate(n=10, return_as_list=True, temperature=0.2, prefix="T")
+
+with open("../docs/src/generated_descriptions.txt", "a") as myfile:
+    for line in batch:
+        myfile.write("\n" + line)
 
