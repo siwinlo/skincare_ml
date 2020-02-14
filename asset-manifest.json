@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/skincare_ml/docs/public/index.html/static/css/main.b87d18ae.chunk.css",
+    "main.css": "/skincare_ml/docs/public/index.html/static/css/main.e1432105.chunk.css",
     "main.js": "/skincare_ml/docs/public/index.html/static/js/main.6c8bf550.chunk.js",
     "main.js.map": "/skincare_ml/docs/public/index.html/static/js/main.6c8bf550.chunk.js.map",
     "runtime-main.js": "/skincare_ml/docs/public/index.html/static/js/runtime-main.cd362fa4.js",
@@ -8,9 +8,9 @@
     "static/js/2.9d77b04d.chunk.js": "/skincare_ml/docs/public/index.html/static/js/2.9d77b04d.chunk.js",
     "static/js/2.9d77b04d.chunk.js.map": "/skincare_ml/docs/public/index.html/static/js/2.9d77b04d.chunk.js.map",
     "index.html": "/skincare_ml/docs/public/index.html/index.html",
-    "precache-manifest.3d838d03bd3d62f221a1d91d42ce8342.js": "/skincare_ml/docs/public/index.html/precache-manifest.3d838d03bd3d62f221a1d91d42ce8342.js",
+    "precache-manifest.67ac32c5d7b022f5dcc80d32b3e48236.js": "/skincare_ml/docs/public/index.html/precache-manifest.67ac32c5d7b022f5dcc80d32b3e48236.js",
     "service-worker.js": "/skincare_ml/docs/public/index.html/service-worker.js",
-    "static/css/main.b87d18ae.chunk.css.map": "/skincare_ml/docs/public/index.html/static/css/main.b87d18ae.chunk.css.map",
+    "static/css/main.e1432105.chunk.css.map": "/skincare_ml/docs/public/index.html/static/css/main.e1432105.chunk.css.map",
     "static/js/2.9d77b04d.chunk.js.LICENSE.txt": "/skincare_ml/docs/public/index.html/static/js/2.9d77b04d.chunk.js.LICENSE.txt",
     "static/media/generated_descriptions.txt": "/skincare_ml/docs/public/index.html/static/media/generated_descriptions.7cb40193.txt",
     "static/media/generated_press.txt": "/skincare_ml/docs/public/index.html/static/media/generated_press.28059b40.txt",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.cd362fa4.js",
     "static/js/2.9d77b04d.chunk.js",
-    "static/css/main.b87d18ae.chunk.css",
+    "static/css/main.e1432105.chunk.css",
     "static/js/main.6c8bf550.chunk.js"
   ]
 }
