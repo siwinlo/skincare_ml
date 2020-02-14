@@ -16,7 +16,8 @@
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-		"deploy": "gh-pages -d build"
+		"predeploy": "npm run build",
+		"deploy": "gh-pages master -d build"
 	},
 	"eslintConfig": {
 		"extends": "react-app"
@@ -36,5 +37,5 @@
 	"devDependencies": {
 		"gh-pages": "^2.2.0"
 	},
-	"homepage": "https://siwinlo.github.io/skincare_ml/skincare_ml_ator/public/index.html"
+	"homepage": "https://siwinlo.github.io/skincare_ml/docs/public/index.html"
 }
