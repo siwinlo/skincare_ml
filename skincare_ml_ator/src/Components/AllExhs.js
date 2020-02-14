@@ -26,9 +26,12 @@ class AllExhs extends React.Component {
 		this.getDescriptions();
 		if (this.state.t.length > 0) {
 			return (
-				<div>
+				<div className="all-container">
+					<h2>Generated Art Exhibition Press Releases</h2>
 					{this.state.t.split('\n').map(el => (
-						<ul>{el}</ul>
+						<ul>
+							<p>{el}</p>
+						</ul>
 					))}
 				</div>
 			);

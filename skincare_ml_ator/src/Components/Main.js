@@ -1,7 +1,8 @@
 import React from 'react';
-import AllTitles from './AllTitles';
-import AllDescriptions from './AllDescriptions';
+// import AllTitles from './AllTitles';
+// import AllDescriptions from './AllDescriptions';
 import AllExhs from './AllExhs';
+import SynthProducts from './SynthProducts';
 
 class Main extends React.Component {
 	constructor() {
@@ -11,8 +12,9 @@ class Main extends React.Component {
 	render() {
 		return (
 			<div className="main">
-				<AllTitles />
-				<AllDescriptions />
+				{/* <AllTitles />
+				<AllDescriptions /> */}
+				<SynthProducts />
 				<AllExhs />
 			</div>
 		);

@@ -11,7 +11,7 @@ class AllTitles extends React.Component {
 		};
 	}
 
-	getDescriptions = () => {
+	getTitles = () => {
 		fetch(generated_products)
 			.then(r => r.text())
 			.then(t =>
@@ -23,10 +23,10 @@ class AllTitles extends React.Component {
 	};
 
 	render() {
-		this.getDescriptions();
+		this.getTitles();
 		if (this.state.t.length > 0) {
 			return (
-				<div>
+				<div className="all-container">
 					{this.state.t.split('\n').map(el => (
 						<ul>{el}</ul>
 					))}

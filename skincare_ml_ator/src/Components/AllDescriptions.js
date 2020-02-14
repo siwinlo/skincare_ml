@@ -26,7 +26,7 @@ class AllDescriptions extends React.Component {
 		this.getDescriptions();
 		if (this.state.t.length > 0) {
 			return (
-				<div>
+				<div className="all-container">
 					{this.state.t.split('\n').map(el => (
 						<ul>{el}</ul>
 					))}
