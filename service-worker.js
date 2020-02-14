@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/skincare_ml/precache-manifest.69a7bea0732e1871501ac6df8ca05a87.js"
+  "/skincare_ml/precache-manifest.09bf144526c9aabe71cdf2e2083fca1f.js"
 );
 
 self.addEventListener('message', (event) => {
