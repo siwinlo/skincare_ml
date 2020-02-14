@@ -1,14 +1,15 @@
 .all-container {
 	width: auto;
-	margin: 1em;
-	border: lightcoral;
-	border-style: dashed;
+	background-color: #222222;
+	margin: 0.5em;
 	text-align: left;
-	padding: 0.5em;
+	padding: 1.5em;
 }
 
-.synth {
-	flex: 2fr;
+body {
+	background-image: url('https://images.freeimages.com/images/small-previews/e54/texture-17-1172591.jpg');
+	background-color: #cccccc;
+	font-family: 'Courier New', Courier, monospace;
 }
 
 .App {
@@ -41,12 +42,29 @@
 	color: #61dafb;
 }
 
+h1,
+h2 {
+	color: #ff0099;
+}
+
+h3 {
+	color: white;
+	font-family: 'Courier New', Courier, monospace;
+}
+
 .main {
 	display: flex;
+	margin: 5em;
 }
 
 p {
-	font-size: 0.7em;
+	font-size: 1em;
+	color: #38ff12;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.synth {
+	flex: 2fr;
 }
 
 @keyframes App-logo-spin {
