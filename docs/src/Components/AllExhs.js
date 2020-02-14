@@ -8,7 +8,7 @@ class AllExhs extends React.Component {
 		super();
 		this.state = {
 			t: [],
-			count: 5,
+			count: 1,
 		};
 	}
 
@@ -39,7 +39,7 @@ class AllExhs extends React.Component {
 	};
 
 	showMore = () => {
-		this.setState({ count: 5 });
+		this.setState({ count: 1 });
 	};
 
 	render() {
