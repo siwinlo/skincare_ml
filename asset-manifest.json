@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/skincare_ml/static/css/main.281193a2.chunk.css",
-    "main.js": "/skincare_ml/static/js/main.4dfc4961.chunk.js",
-    "main.js.map": "/skincare_ml/static/js/main.4dfc4961.chunk.js.map",
+    "main.css": "/skincare_ml/static/css/main.10cafda2.chunk.css",
+    "main.js": "/skincare_ml/static/js/main.8389e061.chunk.js",
+    "main.js.map": "/skincare_ml/static/js/main.8389e061.chunk.js.map",
     "runtime-main.js": "/skincare_ml/static/js/runtime-main.b9a148f7.js",
     "runtime-main.js.map": "/skincare_ml/static/js/runtime-main.b9a148f7.js.map",
     "static/js/2.486a94d2.chunk.js": "/skincare_ml/static/js/2.486a94d2.chunk.js",
     "static/js/2.486a94d2.chunk.js.map": "/skincare_ml/static/js/2.486a94d2.chunk.js.map",
     "index.html": "/skincare_ml/index.html",
-    "precache-manifest.5186f77c9fb95d606d1dc230144651ce.js": "/skincare_ml/precache-manifest.5186f77c9fb95d606d1dc230144651ce.js",
+    "precache-manifest.84d3ac5e0f52d1bb25afddc50747c824.js": "/skincare_ml/precache-manifest.84d3ac5e0f52d1bb25afddc50747c824.js",
     "service-worker.js": "/skincare_ml/service-worker.js",
-    "static/css/main.281193a2.chunk.css.map": "/skincare_ml/static/css/main.281193a2.chunk.css.map",
+    "static/css/main.10cafda2.chunk.css.map": "/skincare_ml/static/css/main.10cafda2.chunk.css.map",
     "static/js/2.486a94d2.chunk.js.LICENSE.txt": "/skincare_ml/static/js/2.486a94d2.chunk.js.LICENSE.txt",
     "static/media/generated_descriptions.txt": "/skincare_ml/static/media/generated_descriptions.7cbafdb5.txt",
     "static/media/generated_press.txt": "/skincare_ml/static/media/generated_press.84624c65.txt",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.b9a148f7.js",
     "static/js/2.486a94d2.chunk.js",
-    "static/css/main.281193a2.chunk.css",
-    "static/js/main.4dfc4961.chunk.js"
+    "static/css/main.10cafda2.chunk.css",
+    "static/js/main.8389e061.chunk.js"
   ]
 }

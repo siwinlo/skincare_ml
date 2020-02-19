@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "731bec4835ee766b38a7f36272110bd3",
+    "revision": "4de86cbc58f7f2bed4068372b6af3c59",
     "url": "/skincare_ml/index.html"
   },
   {
-    "revision": "d9c4f3c5ec73daee3ce6",
-    "url": "/skincare_ml/static/css/main.281193a2.chunk.css"
+    "revision": "c2a70ac80163a9527036",
+    "url": "/skincare_ml/static/css/main.10cafda2.chunk.css"
   },
   {
     "revision": "5a3b55f85445e0a09a5f",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/skincare_ml/static/js/2.486a94d2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d9c4f3c5ec73daee3ce6",
-    "url": "/skincare_ml/static/js/main.4dfc4961.chunk.js"
+    "revision": "c2a70ac80163a9527036",
+    "url": "/skincare_ml/static/js/main.8389e061.chunk.js"
   },
   {
     "revision": "a7d4aaec010fc44aae55",
