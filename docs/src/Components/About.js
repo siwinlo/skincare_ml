@@ -3,9 +3,11 @@ import React from 'react';
 function About() {
 	return (
 		<div className="all-container">
+			<h2>About</h2>
 			<p>
-				A text generation project
-				<a href="https://siwinlo.github.io"> Siwin Lo</a>
+				<a href="https://siwinlo.github.io">
+					A text generation project by Siwin Lo
+				</a>
 			</p>
 			<p>
 				This application displays text generated using textgenrnn, a text

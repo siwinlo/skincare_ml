@@ -19,21 +19,27 @@ class Main extends React.Component {
 	toggleAbout(event) {
 		this.setState({
 			about: !this.state.about,
+			products: false,
+			exhs: false,
 		});
 	}
 	toggleProducts(event) {
 		this.setState({
+			about: false,
 			products: !this.state.products,
+			exhs: false,
 		});
 	}
 	toggleExhs(event) {
 		this.setState({
+			about: false,
+			products: false,
 			exhs: !this.state.exhs,
 		});
 	}
 	render() {
 		return (
-			<div>
+			<div className="main-container">
 				<div className="nav">
 					<div className="nav-link" onClick={this.toggleAbout}>
 						About

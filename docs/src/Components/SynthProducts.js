@@ -58,7 +58,7 @@ class SynthProducts extends React.Component {
 		);
 		if (this.state.titles.length > 0) {
 			return (
-				<div className="all-container synth">
+				<div className="all-container">
 					<h2>Generated Skincare Products</h2>
 					{descriptions.map((el, i) => (
 						<div>
