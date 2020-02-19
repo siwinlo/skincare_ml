@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bee5339e3a79bddb01fe9e7a16b414c1",
+    "revision": "0872de99e3e1b1de22b523165ca6be42",
     "url": "/skincare_ml/index.html"
   },
   {
-    "revision": "295804261e312ed2ef1c",
+    "revision": "45778a7a6c4fa8a34c86",
     "url": "/skincare_ml/static/css/main.f4c852dc.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/skincare_ml/static/js/2.486a94d2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "295804261e312ed2ef1c",
-    "url": "/skincare_ml/static/js/main.35301a87.chunk.js"
+    "revision": "45778a7a6c4fa8a34c86",
+    "url": "/skincare_ml/static/js/main.3c32f7d5.chunk.js"
   },
   {
     "revision": "a7d4aaec010fc44aae55",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/skincare_ml/static/media/generated_descriptions.7cbafdb5.txt"
   },
   {
-    "revision": "84624c65696358f5afbafb21066b280d",
-    "url": "/skincare_ml/static/media/generated_press.84624c65.txt"
+    "revision": "afa8a1d630032754d428361ec8403d55",
+    "url": "/skincare_ml/static/media/generated_press.afa8a1d6.txt"
   },
   {
     "revision": "504adff49352bc62c7f0c6efc73296cc",
