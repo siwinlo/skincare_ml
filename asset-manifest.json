@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/skincare_ml/static/css/main.f4c852dc.chunk.css",
-    "main.js": "/skincare_ml/static/js/main.c2123745.chunk.js",
-    "main.js.map": "/skincare_ml/static/js/main.c2123745.chunk.js.map",
+    "main.css": "/skincare_ml/static/css/main.d8f9356f.chunk.css",
+    "main.js": "/skincare_ml/static/js/main.116b9834.chunk.js",
+    "main.js.map": "/skincare_ml/static/js/main.116b9834.chunk.js.map",
     "runtime-main.js": "/skincare_ml/static/js/runtime-main.b9a148f7.js",
     "runtime-main.js.map": "/skincare_ml/static/js/runtime-main.b9a148f7.js.map",
     "static/js/2.486a94d2.chunk.js": "/skincare_ml/static/js/2.486a94d2.chunk.js",
     "static/js/2.486a94d2.chunk.js.map": "/skincare_ml/static/js/2.486a94d2.chunk.js.map",
     "index.html": "/skincare_ml/index.html",
-    "precache-manifest.dbf53ae357059463e80c3ce273917254.js": "/skincare_ml/precache-manifest.dbf53ae357059463e80c3ce273917254.js",
+    "precache-manifest.60569a292623b5f17cf9c184145de811.js": "/skincare_ml/precache-manifest.60569a292623b5f17cf9c184145de811.js",
     "service-worker.js": "/skincare_ml/service-worker.js",
-    "static/css/main.f4c852dc.chunk.css.map": "/skincare_ml/static/css/main.f4c852dc.chunk.css.map",
+    "static/css/main.d8f9356f.chunk.css.map": "/skincare_ml/static/css/main.d8f9356f.chunk.css.map",
     "static/js/2.486a94d2.chunk.js.LICENSE.txt": "/skincare_ml/static/js/2.486a94d2.chunk.js.LICENSE.txt",
     "static/media/generated_descriptions.txt": "/skincare_ml/static/media/generated_descriptions.7cbafdb5.txt",
-    "static/media/generated_press.txt": "/skincare_ml/static/media/generated_press.afa8a1d6.txt",
-    "static/media/generated_products.txt": "/skincare_ml/static/media/generated_products.504adff4.txt",
+    "static/media/generated_press.txt": "/skincare_ml/static/media/generated_press.9cfcd711.txt",
+    "static/media/generated_products.txt": "/skincare_ml/static/media/generated_products.796178be.txt",
     "static/media/logo.svg": "/skincare_ml/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.b9a148f7.js",
     "static/js/2.486a94d2.chunk.js",
-    "static/css/main.f4c852dc.chunk.css",
-    "static/js/main.c2123745.chunk.js"
+    "static/css/main.d8f9356f.chunk.css",
+    "static/js/main.116b9834.chunk.js"
   ]
 }
