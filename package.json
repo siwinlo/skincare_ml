@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/siwinlo/skincare_ml#readme",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "sls": "^0.1.0"
   }
 }
