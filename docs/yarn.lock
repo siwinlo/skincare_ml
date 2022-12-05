@@ -3313,9 +3313,9 @@ decamelize@^1.2.0:
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 deep-equal@^1.0.1:
   version "1.1.1"
@@ -7343,6 +7343,13 @@ pkg-up@3.1.0:
   dependencies:
     find-up "^3.0.0"
 
+plain-text-data-to-json@^1.0.3:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/plain-text-data-to-json/-/plain-text-data-to-json-1.1.0.tgz#44b7dfb61b539ea8f5c116f238ed97c71141656e"
+  integrity sha512-Fy9srn7vRtVSHq/rOF1X4g9llu51vDQzt/yBVvaQqz46pu4Pll2X/PoOhGdQj4GGDaJFNF4vJxp++ZaSAFKW9A==
+  dependencies:
+    trim "^1.0.0"
+
 pn@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/pn/-/pn-1.1.0.tgz#e2f4cef0e219f463c179ab37463e4e1ecdccbafb"
@@ -9769,6 +9776,11 @@ trim-repeated@^1.0.0:
   integrity sha1-42RqLqTokTEr9+rObPsFOAvAHCE=
   dependencies:
     escape-string-regexp "^1.0.2"
+
+trim@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/trim/-/trim-1.0.1.tgz#68e78f6178ccab9687a610752f4f5e5a7022ee8c"
+  integrity sha512-3JVP2YVqITUisXblCDq/Bi4P9457G/sdEamInkyvCsjbTcXLXIiG7XCb4kGMFWh6JGXesS3TKxOPtrncN/xe8w==
 
 ts-pnp@1.1.5, ts-pnp@^1.1.2:
   version "1.1.5"
